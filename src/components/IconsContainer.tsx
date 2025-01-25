@@ -11,7 +11,7 @@ export const IconsContainer = () => {
                 file={"/youtube_button.glb"}
                 position={[-0.9, -0.3, 0]}
                 scale={[0.7, 0.7, 0.7]}
-                rotation={[0.1, 0.2, 0]}
+                rotation={[-0.1, -0.6, 0]}
                 action={() => window.open(
                     "https://www.youtube.com/c/PabloPaschoalin?sub_confirmation=1", 
                     "_blank"
@@ -20,8 +20,8 @@ export const IconsContainer = () => {
             <SocialIcon
                 file={"/twitch_logo.glb"}
                 position={[1, -0.3, 0]}
-                scale={[-1.75, 1.75, 1.75]}
-                rotation={[-0.1, -0.25, 0]}
+                scale={[1.75, 1.75, 1.75]}
+                rotation={[-0.1, 0.25, 0]}
                 action={() => window.open(
                     "https://www.twitch.tv/paschoalin", 
                     "_blank"
