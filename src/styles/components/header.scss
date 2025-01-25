@@ -1,0 +1,21 @@
+@use '../utils//mixins.scss' as mixins;
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    @include mixins.flex-central;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+        color: var(--main-color);
+    }
+    h1, p {
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,43 @@
+@use './mixins' as mixins;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#root {
+    overflow: hidden;
+    min-height: 100vh;
+    color: var(--contrast-color);
+    font-family: var(--font);
+    @include mixins.background-gradient;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid var(--bg-secondary-color);
+}
+
+::selection {
+    background-color: var(--main-color);
+    color: var(--bg-main-color);
+}
