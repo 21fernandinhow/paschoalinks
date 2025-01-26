@@ -1,0 +1,14 @@
+@use '../utils//mixins.scss' as mixins;
+
+.icons-grid{
+    @include mixins.container-position;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .icons-grid-item{
+        max-height: 8rem;
+        max-width: 8rem;
+    }
+}
