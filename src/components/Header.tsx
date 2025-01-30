@@ -5,7 +5,7 @@ export const Header = () => {
         <header>
             <Avatar />
             <h1>Pablo Paschoalin</h1>
-            <p>Mineiro, jogos variados, criador de conteúdo e streamer.</p>
+            <p>Criador de conteúdo e streamer de jogos variados.</p>
         </header>
     )
 }
