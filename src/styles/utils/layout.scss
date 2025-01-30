@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     color: var(--contrast-color);
     font-family: var(--font);
-    background-image: url('./bg-image.png');
+    background-image: var(--bg-image);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
